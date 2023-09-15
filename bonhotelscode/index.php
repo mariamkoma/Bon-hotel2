@@ -41,54 +41,9 @@
                     Rooms & Rates
                 </h2>
                 <div class="rooms-gallery">
-                    <div class="rooms-card">
-                        <img src="assets/FqqiAvJejto.png" alt="img1">
-                        <div class="overlay"></div>
-                        <div class="cards-content">
-                            <h3 class="card-title">Standard Twin Room</h3>
-                            <a href="#" class="button button-small">
-                                Check Rates
-                            </a>
+                            <?php include 'variables.php';?>
                         </div>
                     </div>
-
-
-                    <div class="rooms-card">
-                        <img src="assets/balishebi.png" alt="img1">
-                        <div class="overlay"> </div>
-                        <div class="cards-content">
-                            <h3 class="card-title">Standard Room</h3>
-                            <a href="#" class="button button-small">
-                                Check Rates
-                            </a>
-                        </div>
-                    </div>
-
-
-                    <div class="rooms-card">
-                        <img src="assets/mesame.png" alt="img1">
-                        <div class="overlay"></div>
-                        <div class="cards-content">
-                            <h3 class="card-title">Standard View Room</h3>
-                            <a href="#" class="button button-small">
-                                Check Rates
-                            </a>
-                        </div>
-                    </div>
-
-
-                    <div class="rooms-card">
-                        <img src="assets/meotxe.png" alt="img1">
-                        <div class="overlay"></div>
-                        <div class="cards-content">
-                            <h3 class="card-title">Deluxe Room</h3>
-                            <a href="#" class="button button-small">
-                                Check Rates
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
         </section>
         <section class="third-section">
@@ -119,9 +74,22 @@
                     <p>Bon Hotels Head Office</p>
                     <a href="tel: +27 434 344 432">+27 434 344 432</a>
                     <a href="mailto: info@bonhotels.com">info@bonhotels.com</a> 
+
+  <form action="/action_page.php">
+  <label for="fname">Name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="fname">Password:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Password Confirmation:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <input type="submit" value="Submit">
+
+</form> 
                </div>
             </div>
         </div>
     </footer>
 </body>
 </html>
+
+ 

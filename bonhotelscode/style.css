@@ -140,7 +140,7 @@ h1 {
 }
 
 .rooms-gallery {
-    display:inline-flex;
+    display: flex;
     flex-wrap: wrap;
     gap: 60px;
 }
